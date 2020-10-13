@@ -50,6 +50,13 @@ let db = new sqlite.Database(DBSOURCE, (err) => {
                 db.run(insert, ["2","23456","correo@correo.com","Agatha","Christie","2020-10-09 11:41:47"])
                 db.run(insert, ["1","34567","gmail@correo.com","JK","Rowling","2020-10-09 10:41:47"])
                 db.run(insert, ["1","45678","pombo@correo.com","Rafael","Pombo","2020-10-09 8:41:47"])
+                db.run(insert, ["1","56789","blabla@correo.com","Harry","Potter","2020-10-09 5:41:47"])
+                db.run(insert, ["2","67890","email@correo.com","Albus","Dumbledore","2020-10-09 8:41:47"])
+                db.run(insert, ["1","78901","kansd@correo.com","Albus","Percival","2020-09-09 6:41:47"])
+                db.run(insert, ["2","89012","naruto@correo.com","Severus","Snape","2020-08-09 8:41:47"])
+                db.run(insert, ["2","90123","deathnote@correo.com","Rinrin","Renacuajo","2020-07-09 4:41:47"])
+                db.run(insert, ["1","40412","lol@correo.com","Suan","fonson","2019-10-09 8:41:47"])
+                db.run(insert, ["1","21504","jajajaja@correo.com","Reposa","ito","2020-10-09 8:41:47"])
             }
         });
     }
